@@ -1,0 +1,113 @@
+:root {
+    --green: #246b35;
+    --brown: rgb(148, 91, 48);
+    --white: white;
+    --black: rgba(7, 1, 1, 0.877);
+    --red: rgba(165, 4, 4, 0.975);
+    --gray: rgb(126, 123, 123);
+    --lightgray: #9b9898;
+    --beige: rgb(223, 223, 198);
+    --lightGreen: rgb(173, 215, 95);
+    --yellow: #ece46b;
+}
+
+#header {
+  background: linear-gradient( var(--lightGreen), var(--yellow));
+}
+
+#contacto {
+  background: var(--green);
+  color: var(--white);
+}
+
+.dropdown-item {
+  color: var(--green);
+}
+
+body {
+  background: linear-gradient( var(--white), var(--lightGreen), var(--green)); 
+}
+
+.logo {
+    border-radius: 10%;
+    border: 1px solid var(--green);
+}
+
+.barra {
+    color: var(--green)!important;
+}
+
+#whatsapp {
+  margin: 5px;
+}
+
+.domicilio {
+    color: var(--red)!important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='green' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler {
+  border: var(--white) solid 1px!important;
+}
+
+.navbar-toggler:hover {
+  color: var(--yellow)!important;
+}
+
+.navbar-toggler:active {
+  color: var(--beige)!important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+#carouselExampleControls {
+    position: relative;
+    
+  }
+#main {
+    width: 100%;
+}
+
+
+main .carousel-inner img {
+  max-height: 27rem !important;
+  object-fit: cover;
+  border: var(--lightGreen) solid 1px;
+}
+  
+  .slide {
+    margin-top: 0px;
+  }
+
+  .card {
+    border: var(--green) solid 1px;
+  }
+
+  .card-body {
+    border: #246b35 solid 1px;
+    background: var(--lightGreen);
+    color: var(--green);
+  }
+
+
+  .secciones .card-body a {
+    color: var(--brown);
+  }
+
+  #footer {
+    background-image: url(./images/hojas-verdes.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 13rem;
+    margin-top: 35px;
+  }
+
+  footer a {
+    color: var(--white);
+  }
